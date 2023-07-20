@@ -1,0 +1,61 @@
+@media  screen and (max-width:576px) {
+    .nav-container,
+    .games-store{
+        flex-direction: column;
+    }
+    .nav-icon{
+        flex-direction: column;
+    }
+    .menus{
+        flex-direction: column;
+    }
+    .menus-container{
+        justify-content: center;
+    }
+    .banner-section{
+        /* flex-direction: row-reverse; */
+        flex-direction: column-reverse;
+    }
+    .banner-profile{
+        width:60%;
+        margin: 0 auto;
+        justify-content: center;
+        padding-left: 100px;
+        
+    }
+    .games-store{
+        max-width: fit-content;
+        
+    }
+    .online-game{
+        flex-direction: column;
+    }
+    .support-section {
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+    }
+    
+    .games-type-section{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+
+        
+      
+    }
+    .policy{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr); 
+
+    }
+    .game-box{
+        width: 100px;
+    }
+    .game-name-info{
+        font-size: 10px;
+    }
+    .
+   
+
+    
+    
+}
